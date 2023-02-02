@@ -47,6 +47,7 @@ p:only-child{
 
 /* Card section */
 
+
 img{
     height: 75px;
     object-fit: cover;
@@ -56,18 +57,35 @@ img{
 .didascalia{
     background-color: var(--bg-black);
     color: var(--white);
+    margin-bottom: 2rem;
 }
 
 .col{
     float:left;
-    width: calc((100% / 3));
+    width: calc((100% / 3) - 2rem);
 }
 
-div.didascalia p,h3{
+div.didascalia p,h3,.email{
     padding-left: 5.5rem;
+    
+
 }
 
 .col:nth-child(2){
-    padding-left: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.email{
+    color: var(--email)
+}
+
+.email:hover{
+    cursor:pointer;
+    color: aqua;
+}
+
+.padding{
+    padding: .2rem 0;
 }
 /* / main */
