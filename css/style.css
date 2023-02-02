@@ -58,6 +58,7 @@ img{
     background-color: var(--bg-black);
     color: var(--white);
     margin-bottom: 2rem;
+    box-shadow: 5px 5px 5px #5e5e5f;
 }
 
 .col{
