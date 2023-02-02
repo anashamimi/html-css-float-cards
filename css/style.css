@@ -16,15 +16,58 @@
     --title: #e53170;
     --email: #1fb9eb;
     --white: #ffffff;
+    --bg-black: #000000;
 }
 
+/* body */
 body{
     font-family: 'Fredoka', sans-serif;
 }
 
+.box{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* / body */
+
+/* header */
 header h1{
     color: var(--title);
-    max-width: 1200px;
-    margin: 2rem auto;
+    padding: 2rem 0;
     text-align: center;
 }
+/* header */
+
+/* main */
+/* Paragraph section */
+p:only-child{
+    text-align: center;
+    padding-bottom: 4rem ;
+}
+
+/* Card section */
+
+img{
+    height: 75px;
+    object-fit: cover;
+    float: left;
+}
+
+.didascalia{
+    background-color: var(--bg-black);
+    color: var(--white);
+}
+
+.col{
+    float:left;
+    width: calc((100% / 3));
+}
+
+div.didascalia p,h3{
+    padding-left: 5.5rem;
+}
+
+.col:nth-child(2){
+    padding-left: 2rem;
+}
+/* / main */
