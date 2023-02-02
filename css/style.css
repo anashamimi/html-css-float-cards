@@ -1,0 +1,30 @@
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+:root{
+    --title: #e53170;
+    --email: #1fb9eb;
+    --white: #ffffff;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+header h1{
+    color: var(--title);
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+}
